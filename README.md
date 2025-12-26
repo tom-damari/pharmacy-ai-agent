@@ -143,12 +143,13 @@ pharmacy-agent/
 
 ## 🧪 Testing
 
+Tests complete user journeys with real OpenAI API calls.
+Covers 3 main flows: Basic Inquiries, Prescription Verification, and Policy Enforcement.
 Run end-to-end flow tests:
 ```bash
-pytest tests/test_flows.py -v
+pytest tests/test_flows.py -v -s
 ```
-
-f---
+See EVALUATION_PLAN.md for detailed test methodology.
 
 <div align="center">
 

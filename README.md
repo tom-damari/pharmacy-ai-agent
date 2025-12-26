@@ -27,7 +27,7 @@
 |----------|-------------|
 | [FLOWS.md](docs/FLOWS.md) | Complete conversation flows |
 | [TOOLS.md](docs/TOOLS.md) | Tool specifications and JSON schemas |
-| [EVALUATION.md](tests/EVALUATION.md) | Testing methodology and results |
+| [EVALUATION_PLAN.md](tests/EVALUATION_PLAN.md) | Testing methodology and results |
 
 ---
 
@@ -149,7 +149,7 @@ Run end-to-end flow tests:
 ```bash
 pytest tests/test_flows.py -v -s
 ```
-See EVALUATION_PLAN.md for detailed test methodology.
+See [EVALUATION_PLAN.md](tests/EVALUATION_PLAN.md) for detailed test methodology.
 
 <div align="center">
 

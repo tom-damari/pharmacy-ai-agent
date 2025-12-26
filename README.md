@@ -41,7 +41,7 @@
 **1. Clone & Navigate**
 ```bash
 git clone <repository-url>
-cd pharmacy-agent
+cd pharmacy-ai-agent
 ```
 **2. Create and Activate Virtual Environment**
 ```bash
@@ -75,9 +75,9 @@ Open browser: `http://localhost:8000`
 ### Build and Run
 ```bashi
 # Build image
-docker build -t pharmacy-agent .
+docker build -t pharmacy-ai-agent .
 # Run container
-docker run -p 8000:8000 -e OPENAI_API_KEY=sk-your-key-here pharmacy-agent
+docker run -p 8000:8000 -e OPENAI_API_KEY=sk-your-key-here pharmacy-ai-agent
 ```
 
 ---
